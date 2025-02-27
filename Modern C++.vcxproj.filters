@@ -36,5 +36,8 @@
     <ClCompile Include="6. Auto_Keyword.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="7. Operators.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

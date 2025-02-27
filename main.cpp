@@ -5,9 +5,10 @@ import datatypes;
 import loops;
 import functions;
 import auto_keyword;
+import operators;
 
 int main(){
-	autoCall();
+	operatorCpp();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }
