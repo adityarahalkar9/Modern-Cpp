@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClCompile Include="1. Variable.ixx" />
     <ClCompile Include="2. Control_Statements.ixx" />
+    <ClCompile Include="3. Data_Types.ixx" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

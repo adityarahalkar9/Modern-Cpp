@@ -24,5 +24,8 @@
     <ClCompile Include="2. Control_Statements.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3. Data_Types.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
