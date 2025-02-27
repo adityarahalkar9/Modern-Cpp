@@ -34,8 +34,8 @@ export void dataTypes() {
 /*
 	Data Type				Modifiers			    Size (bytes)              Range
 
-1. char					signed					         1		          -128 to 127
-					    unsigned (default)          	 1		          0 to 255
+1. char					signed					1		   -128 to 127
+					unsigned (default)          		1		   0 to 255
 
 2. short int			        signed               		        2		  -32,768 to 32,767
 				        unsigned		 	        2	           0 to 65,535
