@@ -39,7 +39,7 @@ export void dataTypes() {
 
 	2. short int			signed               		2				-32,768 to 32,767
 							unsigned					2				0 to 65,535
-
+							                                                                                 
 	3. int					signed(default)				4				-2,147,483,648 to 2,147,483,647
 							unsigned					4				0 to 4,294,967,295
 
@@ -50,7 +50,7 @@ export void dataTypes() {
 	5. long long int		signed(default)				8				-9,223,372,036,854,775,808 to
 																		9,223,372,036,854,775,807
 							unsigned					8				0 to 18,446,744,073,709,551,615
-
+							 
 	6. double				None						8				~1.7E-308 to 1.7E+308
 	7. long double			None						16				Higher precision, range varies
 																		depending on implementation
