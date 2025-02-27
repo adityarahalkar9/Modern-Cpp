@@ -21,5 +21,8 @@
     <ClCompile Include="1. Variable.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2. Control_Statements.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
