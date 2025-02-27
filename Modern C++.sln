@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modern C++", "Modern C++.vcxproj", "{5985EC08-48E2-4819-9D04-749779C07948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5985EC08-48E2-4819-9D04-749779C07948}.Debug|x64.ActiveCfg = Debug|x64
+		{5985EC08-48E2-4819-9D04-749779C07948}.Debug|x64.Build.0 = Debug|x64
+		{5985EC08-48E2-4819-9D04-749779C07948}.Release|x64.ActiveCfg = Release|x64
+		{5985EC08-48E2-4819-9D04-749779C07948}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D541E58-CE28-4E3D-B105-26C1C3991050}
+	EndGlobalSection
+EndGlobal
