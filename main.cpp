@@ -3,9 +3,10 @@ import variable;
 import controlstatement;
 import datatypes;
 import loops;
+import functions;
 
 int main(){
-	forLoop();
+	functionsCall();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }

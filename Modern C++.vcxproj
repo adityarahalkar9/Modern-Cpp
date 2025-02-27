@@ -83,6 +83,7 @@
     <ClCompile Include="2. Control_Statements.ixx" />
     <ClCompile Include="3. Data_Types.ixx" />
     <ClCompile Include="4. Loops.ixx" />
+    <ClCompile Include="5. Functions.ixx" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
