@@ -34,8 +34,8 @@ void basicCStyleArray() {
 
     // Alternatively, iterate using std::begin and std::end.
     std::cout << "Using std::begin and std::end: ";
-    for (auto it = std::begin(c_array); it != std::end(c_array); ++it) {
-        std::cout << *it << " ";
+    for (auto i = std::begin(c_array); i != std::end(c_array); ++i) {
+        std::cout << *i << " ";
     }
     std::cout << "\n\n";
 }
