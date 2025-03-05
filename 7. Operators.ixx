@@ -102,6 +102,32 @@ void ternaryOperator() {
     std::cout << std::endl;
 }
 
+// Function to demonstrate PREFIX increment and decrement
+void Prefix() {
+    int a{5}, b{5};  // Brace initialization
+
+    std::cout << "Before Prefix Increment: a = " << a << '\n';
+    int prefixIncrement{++a}; // a is incremented first, then assigned
+    std::cout << "After Prefix Increment: a = " << a << ", prefixIncrement = " << prefixIncrement << '\n';
+
+    std::cout << "\nBefore Prefix Decrement: b = " << b << '\n';
+    int prefixDecrement{--b}; // b is decremented first, then assigned
+    std::cout << "After Prefix Decrement: b = " << b << ", prefixDecrement = " << prefixDecrement << '\n';
+}
+
+// Function to demonstrate POSTFIX increment and decrement
+void Postfix() {
+    int x{5}, y{5};  // Brace initialization
+
+    std::cout << "Before Postfix Increment: x = " << x << '\n';
+    int postfixIncrement{x++}; // x is assigned first, then incremented
+    std::cout << "After Postfix Increment: x = " << x << ", postfixIncrement = " << postfixIncrement << '\n';
+
+    std::cout << "\nBefore Postfix Decrement: y = " << y << '\n';
+    int postfixDecrement{y--}; // y is assigned first, then decremented
+    std::cout << "After Postfix Decrement: y = " << y << ", postfixDecrement = " << postfixDecrement << '\n';
+}
+
 
 export int operatorCpp() {
     arithmeticOperators();
@@ -111,6 +137,8 @@ export int operatorCpp() {
     assignmentOperators();
     ternaryOperator();
     testPrecedenceAndAssociativity();
+    Prefix();
+    Postfix();
     return 0;
 }
 
