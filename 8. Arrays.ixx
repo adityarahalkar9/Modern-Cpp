@@ -1,4 +1,11 @@
-﻿/*
+﻿import <iostream>;
+export module arrays;
+#include <array>     // For std::array
+#include <vector>    // For std::vector
+#include <iterator>  // For std::begin and std::end
+#include <span>      // For std::span (C++20 non-owning array view)
+
+/*
  -> This program is organized into sections that cover:
      1. Basic C-style Arrays: Declaration, brace initialization, and iteration.
      2. STL Fixed-Size Array (std::array): Using the fixed-size container with bounds checking.
@@ -9,12 +16,6 @@
      7. Array and Pointer Relationship: How arrays decay to pointers and pointer arithmetic.
 */
 
-import <iostream>;
-export module arrays;
-#include <array>     // For std::array
-#include <vector>    // For std::vector
-#include <iterator>  // For std::begin and std::end
-#include <span>      // For std::span (C++20 non-owning array view)
 
 // Basic C-style Arrays
 void basicCStyleArray() {
@@ -40,6 +41,7 @@ void basicCStyleArray() {
 }
 
 
+
 // STL Fixed-Size Array (std::array)
 void fixedSizeArray() {
     std::cout << "=== std::array (Fixed-Size Array) ===\n";
@@ -56,6 +58,7 @@ void fixedSizeArray() {
     // Use .at() for bounds-checked access.
     std::cout << "Element at index 2 (using at()): " << std_array.at(2) << "\n\n";
 }
+
 
 
 //Section 3: Multi-Dimensional C-style Arrays
@@ -78,6 +81,7 @@ void multiDimensionalArray() {
 }
 
 
+
 //Section 4: Dynamic Arrays
 void dynamicArray() {
     std::cout << "=== Dynamically Allocated Array ===\n";
@@ -98,6 +102,7 @@ void dynamicArray() {
 }
 
 
+
 // STL Dynamic Array (std::vector)
 void dynamicVector() {
     std::cout << "=== std::vector (Dynamic Array) ===\n";
@@ -111,6 +116,7 @@ void dynamicVector() {
     }
     std::cout << "\n\n";
 }
+
 
 
 // Using std::span for Non-Owning Views and Function Passing
@@ -131,6 +137,7 @@ void spanExample() {
 }
 
 
+
 // Function that prints elements from any contiguous container using std::span.
 void printElements(std::span<const int> arr_span) {
     std::cout << "Elements passed to function: ";
@@ -149,6 +156,7 @@ void passArrayToFunction() {
     printElements(sample_array);
     std::cout << "\n";
 }
+
 
 
 // Array and Pointer Relationship
