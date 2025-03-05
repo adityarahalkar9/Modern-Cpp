@@ -43,6 +43,8 @@ void testPrecedenceAndAssociativity() {
     std::cout << m << std::endl;
 }
 
+
+
 // Operators in C++
 void arithmeticOperators() {
     std::cout << "Arithmetic Operators" << std::endl;
@@ -102,6 +104,7 @@ void ternaryOperator() {
     std::cout << std::endl;
 }
 
+
 // Function to demonstrate PREFIX increment and decrement
 void Prefix() {
     int a{5}, b{5};  // Brace initialization
@@ -115,6 +118,7 @@ void Prefix() {
     std::cout << "After Prefix Decrement: b = " << b << ", prefixDecrement = " << prefixDecrement << '\n';
 }
 
+
 // Function to demonstrate POSTFIX increment and decrement
 void Postfix() {
     int x{5}, y{5};  // Brace initialization
@@ -127,6 +131,7 @@ void Postfix() {
     int postfixDecrement{y--}; // y is assigned first, then decremented
     std::cout << "After Postfix Decrement: y = " << y << ", postfixDecrement = " << postfixDecrement << '\n';
 }
+
 
 
 export int operatorCpp() {
