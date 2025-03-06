@@ -87,6 +87,7 @@
     <ClCompile Include="6. Auto_Keyword.ixx" />
     <ClCompile Include="7. Operators.ixx" />
     <ClCompile Include="8. Arrays.ixx" />
+    <ClCompile Include="9. Pointers.ixx" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

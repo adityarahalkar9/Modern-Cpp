@@ -7,9 +7,10 @@ import functions;
 import auto_keyword;
 import operators;
 import arrays;
+import pointers;
 
 int main(){
-	arrayCall();
+	pointerCall();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }
