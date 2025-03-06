@@ -59,18 +59,25 @@ void fixedSizeArray() {
     std::cout << "Element at index 2 (using at()): " << std_array.at(2) << "\n\n";
 }
 
-
+void deduceSizeOfArray() {
+    int arr[] = {1, 2, 3, 4, 5};
+    // std::size deduces the array size automatically
+    std::cout << "The size of arr is: " << std::size(arr) << '\n';
+}
 
 //Section 3: Multi-Dimensional C-style Arrays
 void multiDimensionalArray() {
     std::cout << "=== Multi-dimensional C-style Array ===\n";
 
-    // Declare a 2x3 array with nested brace initialization.
+    /* Declare a 2x3 array with nested brace initialization. */
     int multi_array[2][3]{{1, 2, 3}, {4, 5, 6}};
 
     std::cout << "2D Array Elements:\n";
-    // Nested range-based loops:
-    // Outer loop iterates over each row, inner loop over each element in the row.
+
+    /*
+       Nested range-based loops:
+       Outer loop iterates over each row, inner loop over each element in the row.
+    */
     for (const auto& row : multi_array) {
         for (int value : row) {
             std::cout << value << " ";
@@ -78,7 +85,13 @@ void multiDimensionalArray() {
         std::cout << "\n";
     }
     std::cout << "\n";
+    /*
+       'auto&' is necessary to correctly deduce 'row' as 'const int(&)[3]'
+       instead of 'const int*'. This ensures that 'row' remains a reference
+       to a fixed-size array rather than decaying into a pointer.
+     */
 }
+
 
 
 
@@ -205,6 +218,7 @@ export int arrayCall() {
     spanExample();
     passArrayToFunction();
     arrayPointerRelationship();
+    deduceSizeOfArray();
 
     return 0;
 }
