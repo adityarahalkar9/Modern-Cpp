@@ -8,9 +8,9 @@ import auto_keyword;
 import operators;
 import arrays;
 import pointers;
+import references;
 
 int main(){
-	pointerCall();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }

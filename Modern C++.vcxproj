@@ -80,6 +80,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1. Variable.ixx" />
+    <ClCompile Include="10. References.ixx" />
     <ClCompile Include="2. Control_Statements.ixx" />
     <ClCompile Include="3. Data_Types.ixx" />
     <ClCompile Include="4. Loops.ixx" />

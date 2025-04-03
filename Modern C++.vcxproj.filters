@@ -45,5 +45,8 @@
     <ClCompile Include="9. Pointers.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="10. References.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
