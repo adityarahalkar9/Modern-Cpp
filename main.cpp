@@ -9,9 +9,9 @@ import operators;
 import arrays;
 import pointers;
 import references;
+import structs;
 
 int main(){
-	referenceCall();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }
