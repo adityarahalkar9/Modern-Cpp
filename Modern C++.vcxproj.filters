@@ -18,16 +18,16 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1. Variable.ixx">
+    <ClCompile Include="01. Variable.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2. Control_Statements.ixx">
+    <ClCompile Include="02. Control_Statements.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="3. Data_Types.ixx">
+    <ClCompile Include="03. Data_Types.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="4. Loops.ixx">
+    <ClCompile Include="04. Loops.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="5. Functions.ixx">
@@ -46,6 +46,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="10. References.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="11. Structs.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
