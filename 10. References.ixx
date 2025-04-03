@@ -40,14 +40,14 @@ void references() {
 }
 
 
-// Function that increments a number by reference
+//Function that increments a number by reference
 void increment(int &num) {
 	num++;
 }
-// Demonstrates passing variables by reference to functions
+//Demonstrates passing variables by reference to functions
 void referenceParameters() {
 	int value{5};      
-	increment(value);    // value is passed by reference and incremented
+	increment(value);    //value is passed by reference and incremented
 
 	std::cout << "referenceParameters:\n";
 	std::cout << "value: " << value << std::endl;   // Outputs: value: 6
@@ -62,10 +62,10 @@ int &getReference(int &num) {
 // Demonstrates returning references from functions
 void referenceReturn() {
 	int a{10};            
-	getReference(a) = 20;   // Sets a to 20
+	getReference(a) = 20;    // Sets a to 20
 
 	std::cout << "referenceReturn:\n";
-	std::cout << "a: " << a << std::endl;   // Outputs: a: 20
+	std::cout << "a: " << a << std::endl;    // Outputs: a: 20
 	std::cout << std::endl;
 }
 
@@ -86,11 +86,11 @@ void constReferences() {
 
 // Demonstrates the differences between references and pointers
 void referencesVsPointers() {
-	int x{10};       // Brace initialization of x
-	int y{20};       // Brace initialization of y
+	int x{10};       
+	int y{20};      
 
-	int &ref = x;    // Assignment notation for reference initialization
-	int *ptr{&x};    // Brace initialization of pointer
+	int &ref = x;    
+	int *ptr{&x};    
 
 	ref = y;         // Assigns the value of y to x (not changing the reference)
 	ptr = &y;        // Changes ptr to point to y
@@ -113,11 +113,11 @@ public:
 };
 // Demonstrates rvalue references and move semantics
 void rvalueReferences() {
-	std::vector<int> vec{1, 2, 3, 4, 5}; // Brace initialization of vec
-	MoveExample example{std::move(vec)}; // Moves vec into example
+	std::vector<int> vec{1, 2, 3, 4, 5}; 
+	MoveExample example{std::move(vec)};   // Moves vec into example
 
 	std::cout << "rvalueReferences:\n";
-	std::cout << "example.data size: " << example.data.size() << std::endl; // Outputs: example.data size: 5
+	std::cout << "example.data size: " << example.data.size() << std::endl;   // Outputs: example.data size: 5
 	std::cout << std::endl;
 }
 
