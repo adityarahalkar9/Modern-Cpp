@@ -40,11 +40,11 @@ void references() {
 }
 
 
-//Function that increments a number by reference
+// Function that increments a number by reference
 void increment(int &num) {
 	num++;
 }
-//Demonstrates passing variables by reference to functions
+// Demonstrates passing variables by reference to functions
 void referenceParameters() {
 	int value{5};      
 	increment(value);    //value is passed by reference and incremented
