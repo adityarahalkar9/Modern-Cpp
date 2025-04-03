@@ -40,6 +40,32 @@ void references() {
 }
 
 
+void referenceExample2(){
+	int count{30};
+	int &r_count = count;
+
+	std::cout << "Value of count is: " << count << std::endl;
+	std::cout << "Value of reference to the count r_count is: " << r_count << std::endl;
+	std::cout << std::endl;
+
+	// Memory location of variable and it's reference is the same unlike pointers.
+	std::cout << "Value of memory location of count is: " << &count << std::endl;
+	std::cout << "Value of memory location of reference to the count r_count is: " << &r_count << std::endl;
+	std::cout << std::endl;
+
+	// Setting new values to variable count
+	count = 50;
+	std::cout << "Updated Value of count is: " << count << std::endl;
+	std::cout << "Updated Value of reference to the count r_count is: " << r_count << std::endl;
+	std::cout << std::endl;
+
+	// Value of variable is also updates if we update value of it's reference
+	r_count = 100;
+	std::cout << "Updated Value of count is: " << count << std::endl;
+	std::cout << "Updated Value of reference to the count r_count is: " << r_count << std::endl;
+}
+
+
 // Function that increments a number by reference
 void increment(int &num) {
 	num++;
@@ -125,6 +151,7 @@ void rvalueReferences() {
 
 export int referenceCall(){
 	references();
+	referenceExample2();
 	referenceParameters();
 	referenceReturn();
 	constReferences();
