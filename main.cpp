@@ -12,6 +12,7 @@ import references;
 import structs;
 
 int main(){
+	structsCall();
 	std::cout << "Hello world" << std::endl;
 	std::cin.get();
 }
