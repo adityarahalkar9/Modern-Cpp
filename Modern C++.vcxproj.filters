@@ -30,19 +30,19 @@
     <ClCompile Include="04. Loops.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="5. Functions.ixx">
+    <ClCompile Include="05. Functions.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="6. Auto_Keyword.ixx">
+    <ClCompile Include="06. Auto_Keyword.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="7. Operators.ixx">
+    <ClCompile Include="07. Operators.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="8. Arrays.ixx">
+    <ClCompile Include="08. Arrays.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="9. Pointers.ixx">
+    <ClCompile Include="09. Pointers.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="10. References.ixx">
