@@ -2,6 +2,7 @@ import std;
 #include "basics_header.h"
 
 int main(){
-	keywordDemo();
-	variableDemo();
+	// keywordDemo();
+	// variableDemo();
+	// dataTypes();
 }
