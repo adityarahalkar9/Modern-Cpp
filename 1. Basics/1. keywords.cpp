@@ -2,10 +2,10 @@ import std;
 #include "basicsheader.h"
 
 /* 
-Keywords are the reserved words that have special meanings in the C++ language. 
-They are the words that have special meaning in the language. C++ uses keywords for 
-specifying the components of the language, such as void, int, public, etc. They can't 
-be used for a variable name, function name or any other identifiers.
+    Keywords are the reserved words that have special meanings in the C++ language. 
+    They are the words that have special meaning in the language. C++ uses keywords for 
+    specifying the components of the language, such as void, int, public, etc. They can't 
+    be used for a variable name, function name or any other identifiers.
 */
 
 // The total number of keywords in C++ are 93 up to C++ 23 specification
