@@ -8,7 +8,7 @@ import std;
     be used for a variable name, function name or any other identifiers.
 */
 
-// The total number of keywords in C++ are 93 up to C++ 23 specification
+//  The total number of keywords in C++ are 93 up to C++ 23 specification
 
 void keywordDemo(){
 
