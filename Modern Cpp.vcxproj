@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1. Basics\01. Keywords.cpp" />
+    <ClCompile Include="1. Basics\02. Variables.cpp" />
     <ClCompile Include="1. Basics\main.cpp" />
   </ItemGroup>
   <ItemGroup>
