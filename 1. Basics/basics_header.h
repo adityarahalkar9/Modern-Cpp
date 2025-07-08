@@ -4,3 +4,4 @@ import std;
 void keywordDemo();
 void variableDemo();
 void dataTypes();
+int function();

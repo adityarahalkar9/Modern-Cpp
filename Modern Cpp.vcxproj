@@ -140,6 +140,7 @@
     <ClCompile Include="1. Basics\01. Keywords.cpp" />
     <ClCompile Include="1. Basics\02. Variables.cpp" />
     <ClCompile Include="1. Basics\03. Data_types.cpp" />
+    <ClCompile Include="1. Basics\04. Functions.cpp" />
     <ClCompile Include="1. Basics\main.cpp" />
   </ItemGroup>
   <ItemGroup>
