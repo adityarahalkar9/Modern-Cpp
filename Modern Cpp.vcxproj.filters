@@ -18,7 +18,7 @@
     <ClCompile Include="1. Basics\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1. Basics\1. keywords.cpp">
+    <ClCompile Include="1. Basics\01. Keywords.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
