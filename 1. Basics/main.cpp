@@ -1,7 +1,7 @@
 import std;
-#include "basicsheader.h"
+#include "basics_header.h"
 
 int main(){
-	// keywordDemo();
-	// variableDemo();
+	keywordDemo();
+	variableDemo();
 }
