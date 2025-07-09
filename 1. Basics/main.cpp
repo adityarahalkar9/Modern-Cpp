@@ -3,7 +3,15 @@ import std;
 
 int main(){
 	// keywordDemo();
+
 	// variableDemo();
+	
 	// dataTypes();
+	
 	// function();
+	
+	// ifElse();
+	// switchStatement();
+
+
 }
