@@ -11,7 +11,7 @@ int references(){
 	int var{70};
 	int& r_var = var;
 
-	std::cout << "var is: " << var << std::endl;         // var is : 70
+	std::cout << "var is: " << var << std::endl;		 // var is : 70
 	std::cout << "&var is: " << &var << std::endl;		 // &var is : 0000001AC2EFF5F4
 	std::cout << "r_var is: " << r_var << std::endl;	 // r_var is : 70
 	std::cout << "&r_var is: " << &r_var << std::endl;	 // &r_var is : 0000001AC2EFF5F4

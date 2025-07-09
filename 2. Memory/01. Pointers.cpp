@@ -7,7 +7,7 @@ int pointer(){
 	int num{45};
 	int* n_ptr = &num;
 
-	std::cout << "num is: " << num << std::endl;         // num is : 45
+	std::cout << "num is: " << num << std::endl;		 // num is : 45
 	std::cout << "&num is: " << &num << std::endl;		 // & num is : 0000009C32CFFAE4
 	std::cout << "n_ptr is: " << n_ptr << std::endl;	 // n_ptr is : 0000009C32CFFAE4
 	std::cout << "&n_ptr is: " << &n_ptr << std::endl;	 // & n_ptr is : 0000009C32CFFB08
