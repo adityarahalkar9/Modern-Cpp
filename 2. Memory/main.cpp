@@ -5,5 +5,6 @@ int main(){
 	// pointer();
 	// pointerManipulation();
 
-	references();
+	// references();
+	// referenceManipulation();
 }
