@@ -144,9 +144,12 @@
     <ClCompile Include="1. Basics\05. Condtions.cpp" />
     <ClCompile Include="1. Basics\06. Control_flow.cpp" />
     <ClCompile Include="1. Basics\main.cpp" />
+    <ClCompile Include="2. Memory\01. Pointers.cpp" />
+    <ClCompile Include="2. Memory\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h" />
+    <ClInclude Include="2. Memory\memory_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
