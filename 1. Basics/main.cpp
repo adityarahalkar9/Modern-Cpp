@@ -13,5 +13,6 @@ int main(){
 	// ifElse();
 	// switchStatement();
 
-	continueStatement();
+	// continueStatement();
+	// breakStatement();
 }

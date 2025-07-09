@@ -8,3 +8,4 @@ int function();
 void ifElse();
 void switchStatement();
 void continueStatement();
+void breakStatement();
