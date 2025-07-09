@@ -26,7 +26,10 @@ int pointerManipulation(){
 	int* a_ptr = &a;
 
 	*a_ptr += 4;
-	std::cout << "a is: " << a << std::endl;             // Value of a changes to 94 from 90
+	std::cout << "a is: " << a << std::endl;			// Value of a changes to 94 from 90
+
+	*a_ptr = 150;
+	std::cout << "a is: " << a << std::endl;			// Value of a changes to 150
 
 	return 0;
 }
