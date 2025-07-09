@@ -7,3 +7,4 @@ void dataTypes();
 int function();
 void ifElse();
 void switchStatement();
+void continueStatement();
