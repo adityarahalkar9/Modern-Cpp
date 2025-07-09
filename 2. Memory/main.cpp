@@ -3,5 +3,5 @@ import std;
 
 int main(){
 	// pointer();
-	pointerManipulation();
+	// pointerManipulation();
 }
