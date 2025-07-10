@@ -70,7 +70,6 @@ int twoDimensionalArrays(){
 }
 
 
-
 int threeDimensionalArray(){
 	// Declare and initialise a 3D array: depth=2, rows=3, columns=2
 	int cube[2][3][2] = {
@@ -78,6 +77,7 @@ int threeDimensionalArray(){
 		{ {7,  8}, {9, 10}, {11, 12} }
 	};
 
+	// Traversing cube
 	std::cout << "Traversing cube using int indices:\n";
 	for (int d = 0; d < 2; ++d) {					 // loop over depth
 		std::cout << "Layer " << d << ":\n";
