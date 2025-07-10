@@ -8,3 +8,4 @@ int referenceManipulation();
 int arrays();
 int twoDimensionalArrays();
 int threeDimensionalArray();
+int stlArray();

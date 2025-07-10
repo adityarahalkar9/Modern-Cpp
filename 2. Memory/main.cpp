@@ -11,4 +11,5 @@ int main(){
 	// arrays();
 	// twoDimensionalArrays();
 	// threeDimensionalArray();
+	stlArray();
 }
