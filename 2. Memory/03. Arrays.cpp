@@ -3,20 +3,20 @@
 
 int arrays(){
 	int arr[5];						// Uninitialised array
-	int Balance[10]{};				// Zero initialised array of size 10
-	int Example[5] = {1,2,3,4,5};	// Initialised array
+	int balance[10]{};				// Zero initialised array of size 10
+	int example[5] = {1,2,3,4,5};	// Initialised array
 	int ID[] = {1,2,3,4,5};			// Size inferred from initialiser
 	int Partial[3] = {1,2};			// Partial array
 
 	std::cout << "Balance array is declared with 10 elements as zero" << std::endl;
-	for (int i = 0; i < std::size(Balance); ++i){
-		std::cout << Balance[i] << " ";
+	for (int i = 0; i < std::size(balance); ++i){
+		std::cout << balance[i] << " ";
 	}
 	std::cout << "\n" << std::endl;
 
 	std::cout << "Example array is inititalized with 5 elements and assigned values" << std::endl;
-	for (int i = 0; i < std::size(Example); ++i) {
-		std::cout << Partial[i] << " ";
+	for (int i = 0; i < std::size(example); ++i) {
+		std::cout << example[i] << " ";
 	}
 	std::cout << "\n" << std::endl;
 
