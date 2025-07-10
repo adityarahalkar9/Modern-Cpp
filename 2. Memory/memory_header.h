@@ -6,3 +6,5 @@ int pointerManipulation();
 int references();
 int referenceManipulation();
 int arrays();
+int twoDimensionalArrays();
+int threeDimensionalArray();

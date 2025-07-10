@@ -8,5 +8,7 @@ int main(){
 	// references();
 	// referenceManipulation();
 
-	arrays();
+	// arrays();
+	// twoDimensionalArrays();
+	// threeDimensionalArray();
 }
