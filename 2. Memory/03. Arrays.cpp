@@ -2,9 +2,9 @@
 #include "memory_header.h"
 
 int arrays(){
-	int arr[5];						// Uninitialised array
-	int balance[10]{};				// Zero initialised array of size 10
-	int example[5] = {1,2,3,4,5};	// Initialised array
+	int arr[5];				// Uninitialised array
+	int balance[10]{};			// Zero initialised array of size 10
+	int example[5] = {1,2,3,4,5};		// Initialised array
 	int ID[] = {1,2,3,4,5};			// Size inferred from initialiser
 	int Partial[3] = {1,2};			// Partial array
 
@@ -85,9 +85,9 @@ int threeDimensionalArray(){
 			for (int c = 0; c < 2; ++c) {			// loop over columns
 				std::cout << cube[d][r][c] << "\t";
 			}
-			std::cout << "\n";						// newline after each row
+			std::cout << "\n";					// newline after each row
 		}
-		std::cout << "\n";							// extra newline between layers
+		std::cout << "\n";						// extra newline between layers
 	}
 
 	// Compute total bytes and total elements
