@@ -105,11 +105,20 @@ int stlArray(){
 	// modifyArray();
 	// iterateArray();
 	// swapArray();
-	useAlgorithms();
+	// useAlgorithms();
 
 	return 0;
 }
 
 /*
 	When to use std::array
+	=> When array size is fixed and known at compile time
+	=> When performance matters(no heap allocation like std::vector)
+	=> When you need safe indexing with .at() (Bounds checking access)
+	=> When working with algorithms,STL etc
+
+	When not to use std::array
+	=> If you need dynamic resizing, use std::vector
+	=> If size is unknown at compile time, use std::vector or std::unique_ptr<T[]>
+	=> If you need heap allocation, prefer std::vector
 */
