@@ -79,15 +79,15 @@ int threeDimensionalArray(){
 
 	// Traversing cube
 	std::cout << "Traversing cube using int indices:\n";
-	for (int d = 0; d < 2; ++d) {					 // loop over depth
+	for (int d = 0; d < 2; ++d) {					// loop over depth
 		std::cout << "Layer " << d << ":\n";
-		for (int r = 0; r < 3; ++r) {				 // loop over rows
-			for (int c = 0; c < 2; ++c) {			 // loop over columns
+		for (int r = 0; r < 3; ++r) {				// loop over rows
+			for (int c = 0; c < 2; ++c) {			// loop over columns
 				std::cout << cube[d][r][c] << "\t";
 			}
-			std::cout << "\n";						 // newline after each row
+			std::cout << "\n";						// newline after each row
 		}
-		std::cout << "\n";							 // extra newline between layers
+		std::cout << "\n";							// extra newline between layers
 	}
 
 	// Compute total bytes and total elements
