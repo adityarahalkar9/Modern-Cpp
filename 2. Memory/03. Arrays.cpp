@@ -37,7 +37,7 @@ int arrays(){
 
 
 int twoDimensionalArrays(){
-	// Declare and inititialise a 2d array (matrix[no of rows][no of columns])
+	// Declare and inititialise a 2d array (matrix[rows][columns])
 	int matrix[3][4] = {
 		{1,2,3,4},
 		{5,6,7,8},
@@ -72,7 +72,7 @@ int twoDimensionalArrays(){
 
 
 int threeDimensionalArray(){
-	// Declare and initialize a 3D array: depth=2, rows=3, columns=2
+	// Declare and initialise a 3D array: depth=2, rows=3, columns=2
 	int cube[2][3][2] = {
 		{ {1,  2}, {3,  4}, {5,  6} },
 		{ {7,  8}, {9, 10}, {11, 12} }
