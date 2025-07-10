@@ -1,6 +1,18 @@
-import std;
+﻿import std;
 #include "basics_header.h"
 #include <climits>
+
+/*
+    Use size_t When:
+    => Representing sizes or counts (e.g., results of sizeof, strlen, container sizes)
+    => Looping forward over arrays or buffers
+    => Ensuring portability—size_t scales with architecture (32‑bit vs 64‑bit)
+
+    Avoid size_t When:
+    => You need negative values (e.g., reverse loops, pointer subtraction), use signed types like int or ptrdiff_t
+    => It doesn’t represent memory size (like "number of chairs" or "rectangle area")
+    => Decrementing an unsigned type-unsigned wrap-around can cause infinite loops
+*/
 
 int size_t_size_of(){
     // 1. Store sizes of built-in types in size_t variables
