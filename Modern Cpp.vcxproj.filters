@@ -51,6 +51,9 @@
     <ClCompile Include="2. Memory\03. Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="1. Basics\07. size_t_sizeof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h">
