@@ -5,3 +5,4 @@ int pointer();
 int pointerManipulation();
 int references();
 int referenceManipulation();
+int arrays();
