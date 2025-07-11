@@ -1,5 +1,6 @@
 import std;
 #include "memory_header.h"
+#include <algorithm>  // Required for std::sort
 
 /*
 	The std::array class template is a modern alternative to c-style arrays that provides 
