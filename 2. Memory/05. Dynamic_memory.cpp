@@ -103,12 +103,30 @@ void singleObject(){
 	delete obj;
 }
 
+
+int danglingPointer(){
+	int* ptr = new int{20};		// Allocating memory and assigning 20
+	std::cout << "Value before delete: " << *ptr << std::endl;
+
+	delete ptr;					// Deleting the allocated memory
+	ptr = nullptr;				// Setting pointer to nullptr to avoid dangling pointer
+
+	// Now ptr is nullptr, so any dereferencing will be avoided
+	if (ptr == nullptr){
+		std::cout << "Pointer is null and safe to use " << std::endl;
+	}
+
+	return 0;
+}
+
+
 int dynamic(){
 	// singleVariableExampleOne();
 	// singleVariableExampleTwo();
 	// singleVariableExampleThree();
 	// arrayDynamicMemory();
-	singleObject();
+	// singleObject();
+	// danglingPointer();
 
 	return 0;
 }

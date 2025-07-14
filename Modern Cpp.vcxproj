@@ -150,6 +150,7 @@
     <ClCompile Include="2. Memory\03. Arrays.cpp" />
     <ClCompile Include="2. Memory\05. Dynamic_memory.cpp" />
     <ClCompile Include="2. Memory\04. Stl_array.cpp" />
+    <ClCompile Include="2. Memory\06. Vectors.cpp" />
     <ClCompile Include="2. Memory\main.cpp" />
   </ItemGroup>
   <ItemGroup>
