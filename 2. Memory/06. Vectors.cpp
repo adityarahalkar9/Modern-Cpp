@@ -100,6 +100,28 @@ int vectorRemoval(){
 	}
 	std::cout << "\n" << std::endl;
 
+	// Erasing 2nd number
+	std::cout << "using erase() for removing 2nd number " << std::endl;
+	numbers.erase(numbers.begin() + 1);
+	for (const int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << "\n" << std::endl;
+
+	return 0;
+}
+
+
+
+// Accessing vector elements
+int vectorAccess(){
+	std::vector<int> numbers{100,200,300,400,500};
+	std::cout << "Element access" << std::endl;
+	std::cout << "First element is: " << numbers.front() << std::endl;		// Using numbers.front()
+	std::cout << "Second element: " << numbers[1] << std::endl;
+	std::cout << "Third element: " << numbers[2] << std::endl;
+	std::cout << "Last element is: " << numbers.back() << std::endl;		// Using numbers.back()
+
 	return 0;
 }
 
@@ -107,7 +129,8 @@ int vectorRemoval(){
 int vector(){
 	// vectorDeclarationAndInitialisation();
 	// vectorModification();
-	vectorRemoval();
+	// vectorRemoval();
+	vectorAccess();
 
 	return 0;
 }
