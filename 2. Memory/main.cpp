@@ -13,4 +13,5 @@ int main(){
 	// threeDimensionalArray();
 	// stlArray();
 	// dynamic();
+	vector();
 }

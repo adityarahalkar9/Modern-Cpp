@@ -10,3 +10,4 @@ int twoDimensionalArrays();
 int threeDimensionalArray();
 int stlArray();
 int dynamic();
+int vector();
