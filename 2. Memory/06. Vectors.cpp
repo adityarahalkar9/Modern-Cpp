@@ -6,7 +6,7 @@ import std;
 	for you, grows dynamically and offers rich interface for element access and modification
 */
 
-void vectorDeclarationAndInitialisation(){
+int vectorDeclarationAndInitialisation(){
 	// No initialisation i.e. empty vector
 	std::vector<int> empty_vector{};
 
@@ -36,8 +36,11 @@ void vectorDeclarationAndInitialisation(){
 	for (const int num : zero_initialised){
 		std::cout << num << " ";
 	}
-	std::cout << std::endl;
+	std::cout << "\n" << std::endl;
+
+	return 0;
 }
+
 
 // Vector modification i.e. adding elements using push_back() and emplace_back()
 /*
@@ -52,14 +55,33 @@ void vectorDeclarationAndInitialisation(){
 	emplace_back() can offer performance advantages by constructing the object directly within the 
 	vector's storage
 */
-void vectorModification(){
+int vectorModification(){
+	std::vector<int> numbers{1,2,3};
+	
+	std::cout << "Initial Vector" << std::endl;
+	for (const int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << "\n" << std::endl;
 
+	numbers.push_back(4);
+	numbers.emplace_back(5);
+
+	std::cout << "Vector after modification" << std::endl;
+	for (const int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << "\n" << std::endl;
+
+	return 0;
 }
+
+
 
 
 int vector(){
 	// vectorDeclarationAndInitialisation();
-	vectorModification();
+	// vectorModification();
 
 	return 0;
 }
