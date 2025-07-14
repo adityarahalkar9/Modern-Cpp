@@ -5,7 +5,6 @@ import std;
 	std::vector is a dynamic array provided by the C++ standard library. It handles memory management
 	for you, grows dynamically and offers rich interface for element access and modification
 */
-
 int vectorDeclarationAndInitialisation(){
 	// No initialisation i.e. empty vector
 	std::vector<int> empty_vector{};
@@ -40,6 +39,7 @@ int vectorDeclarationAndInitialisation(){
 
 	return 0;
 }
+
 
 
 // Vector modification i.e. adding elements using push_back() and emplace_back()
@@ -78,10 +78,36 @@ int vectorModification(){
 
 
 
+// Removing elements using pop_back() and erase()
+int vectorRemoval(){
+	std::vector<int> numbers{10,20,30,40,50,60,70};
+
+	// Removing last element
+	numbers.pop_back();
+
+	std::cout << "numbers array after using pop_back() is " << std::endl;
+	for (const int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << "\n" << std::endl;
+
+	// Using erase()
+	numbers.erase(numbers.begin());
+
+	std::cout << "numbers array after using erase() is " << std::endl;
+	for (const int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << "\n" << std::endl;
+
+	return 0;
+}
+
 
 int vector(){
 	// vectorDeclarationAndInitialisation();
 	// vectorModification();
+	vectorRemoval();
 
 	return 0;
 }
