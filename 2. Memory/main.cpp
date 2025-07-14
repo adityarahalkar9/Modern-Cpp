@@ -12,4 +12,5 @@ int main(){
 	// twoDimensionalArrays();
 	// threeDimensionalArray();
 	// stlArray();
+	// dynamic();
 }

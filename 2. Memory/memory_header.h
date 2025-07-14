@@ -9,3 +9,4 @@ int arrays();
 int twoDimensionalArrays();
 int threeDimensionalArray();
 int stlArray();
+int dynamic();
