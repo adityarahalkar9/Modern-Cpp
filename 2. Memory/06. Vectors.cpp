@@ -126,11 +126,58 @@ int vectorAccess(){
 }
 
 
+
+int vectorCapacityManagement(){
+	// Initialise an empty vector
+	std::vector<int> numbers{};
+	std::cout << "Capacity management: " << "\n" << std::endl;
+
+	// Display initial capacity of vector
+	std::cout << "Initial capacity: " << numbers.capacity() << std::endl;
+
+	// Reserve space for at least 100 elements
+	numbers.reserve(100);
+	std::cout << "Capacity after reserve(100): " << numbers.capacity() << std::endl;
+
+	// Add 50 elements to the vector
+	for (int i = 0; i < 50; ++i){
+		numbers.push_back(i);
+	}
+	std::cout << "Vector after adding 50 elements is: " << std::endl;
+	for (int num: numbers){
+		std::cout << num << " ";
+	}
+	std::cout << std::endl;
+
+	// Display the current size of the vector
+	std::cout << "Size after rusing push_back(): " << numbers.size() << std::endl;
+
+	// Display the capacity of the vector
+	std::cout << "Capacity after using push_back(): " << numbers.capacity() << std::endl;
+
+	// Reduce the capacity to fit the current size
+	numbers.shrink_to_fit();
+	std::cout << "Capacity after using shrink_to_fit() is: " << numbers.capacity() << std::endl;
+
+	return 0;
+
+	/*
+		This fucntions shows us workings of
+		- capacity()
+		- reserve()
+		- push_back()
+		- size()
+		- shrink_to_fit()
+	*/
+}
+
+
 int vector(){
 	// vectorDeclarationAndInitialisation();
 	// vectorModification();
 	// vectorRemoval();
-	vectorAccess();
+	// vectorAccess();
+	vectorCapacityManagement();
 
 	return 0;
 }
