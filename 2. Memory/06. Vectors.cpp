@@ -3,8 +3,16 @@ import std;
 
 /*
 	std::vector is a dynamic array provided by the C++ standard library. It handles memory management
-	for you, grows dynamically and offers rich interface for element access and modification
+	for you, grows dynamically and offers rich interface for element access and modification.
+	When to use std::vector:
+	  -> When you need dynamic resizing
+	  -> When handling large datasets when stack memory is insufficient
+	  -> When passing arrays between functions without worrying about size constraints
+
 */
+
+
+// Vector basics
 int vectorDeclarationAndInitialisation(){
 	// No initialisation i.e. empty vector
 	std::vector<int> empty_vector{};
@@ -125,7 +133,7 @@ int vectorAccess(){
 }
 
 
-
+// Reserving space and using shrink_to_fit
 int vectorCapacityManagement(){
 	// Initialise an empty vector
 	std::vector<int> numbers{};
@@ -171,12 +179,35 @@ int vectorCapacityManagement(){
 }
 
 
+
+// Vector iteration and standard algorithm sorting using std::sort
+int vectorSort(){
+	std::vector<int> numbers{1,5,4,6,9,8};
+	std::cout << "Initial order of array " << std::endl;
+	for (int num : numbers){
+		std::cout << num << " ";
+	}
+	std::cout << std::endl;
+
+	// Using std::sort
+	std::sort(numbers.begin(), numbers.end());
+	std::cout << "Order of elements after using std::sort() " << std::endl;
+	for (int num : numbers){
+		std::cout << num << " ";
+	}
+
+	return 0;
+}
+
+
+
 int vector(){
 	// vectorDeclarationAndInitialisation();
 	// vectorModification();
 	// vectorRemoval();
 	// vectorAccess();
-	vectorCapacityManagement();
+	// vectorCapacityManagement();
+	vectorSort();
 
 	return 0;
 }
