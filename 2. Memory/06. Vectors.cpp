@@ -43,17 +43,16 @@ int vectorDeclarationAndInitialisation(){
 
 
 /*
-    Vector modification i.e. adding elements using push_back() and emplace_back()
+	Vector modification i.e. adding elements using push_back() and emplace_back()
 		- push_back() function adds a copy of existing object to the vector.
 		- emplace_back() function directly constructs the object at the end of vector.
-
+	
 	Both functions add elements at the end of the vector.
 		=> Use push_back() when you have an existing object that you want to add to the vector.
 		=> Use emplace_back() when you want to construct a new object directly into the vector especially,
 		   if the object construction is expensive or it has no default constructor.
-
-	- emplace_back() can offer performance advantages by constructing the object directly within the 
-	  vector's storage
+		- emplace_back() can offer performance advantages by constructing the object directly within the 
+		  vector's storage
 */
 int vectorModification(){
 	std::vector<int> numbers{1,2,3};
