@@ -9,6 +9,9 @@ int main(){
 	// dataTypes();
 	
 	// function();
+	// mAndP();
+	// printV();
+	// defaultArguments();
 	
 	// ifElse();
 	// switchStatement();
