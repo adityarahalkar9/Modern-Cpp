@@ -12,6 +12,10 @@ int main(){
 	// twoDimensionalArrays();
 	// threeDimensionalArray();
 	// stlArray();
+	
 	// dynamic();
-	vector();
+	
+	// vector();
+
+	// vectorMatrix();
 }

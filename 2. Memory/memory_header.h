@@ -11,3 +11,4 @@ int threeDimensionalArray();
 int stlArray();
 int dynamic();
 int vector();
+int vectorMatrix();

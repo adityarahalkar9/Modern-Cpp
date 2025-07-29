@@ -60,6 +60,9 @@
     <ClCompile Include="2. Memory\06. Vectors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2. Memory\07. Vector_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h">
