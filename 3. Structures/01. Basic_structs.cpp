@@ -58,6 +58,7 @@ int accessStruct(){
 struct Circle{
 	double radius{};
 };
+
 void printCircleInfo(Circle c){		// Paasing by value
 	std::cout << "Circle radius: " << c.radius << std::endl;
 }
@@ -71,9 +72,29 @@ int passingByValue(){
 
 
 // Passing structures to functions (By reference)
-struct color{
+struct Color{
 	int red{};
 	int green{};
 	int blue{};
 };
 
+void brightenColor(Color &c){
+	c.red = 120;
+	c.green = 170;
+	c.blue = 220;
+}
+
+int passingByReference(){
+	Color myColor(100,150,200);
+	std::cout << "Orignal red: " << myColor.red << "\nOrignal green: " << myColor.green
+			  << "\nOrignal blue: " << myColor.blue << std::endl;
+	brightenColor(myColor);
+	std::cout << "Brightened colour red: " << myColor.red << "\nBrightened colour green: " << myColor.green
+			  << "\nBrightened colour blue: " << myColor.blue << std::endl;
+
+	return 0;
+}
+
+
+
+// Returning structures from functions

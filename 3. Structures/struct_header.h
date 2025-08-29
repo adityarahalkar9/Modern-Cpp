@@ -4,3 +4,4 @@ import std;
 int runBasicStruct();
 int accessStruct();
 int passingByValue();
+int passingByReference();

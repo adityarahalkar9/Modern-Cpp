@@ -5,4 +5,5 @@ int main(){
 	// runBasicStruct();
 	// accessStruct();
 	// passingByValue();
+	passingByReference();
 }
