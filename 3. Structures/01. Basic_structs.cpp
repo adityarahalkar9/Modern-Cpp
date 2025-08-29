@@ -58,14 +58,22 @@ int accessStruct(){
 struct Circle{
 	double radius{};
 };
-
 void printCircleInfo(Circle c){		// Paasing by value
 	std::cout << "Circle radius: " << c.radius << std::endl;
 }
-
 int passingByValue(){
 	Circle myCircle{5};
 	printCircleInfo(myCircle);
 
 	return 0;
 }
+
+
+
+// Passing structures to functions (By reference)
+struct color{
+	int red{};
+	int green{};
+	int blue{};
+};
+
