@@ -115,3 +115,8 @@ int structuresFromFunctions(){
 	
 	return 0;
 }
+/*
+	Functions can return structure variables. The addVectors() function takes 2 Vector2D structures
+	as input and returns a new Vector2D structure whose x and y members are the sums of the corresponding
+	members of the input vectors.
+*/
