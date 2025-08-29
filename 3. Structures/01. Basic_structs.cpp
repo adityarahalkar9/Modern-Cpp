@@ -98,3 +98,20 @@ int passingByReference(){
 
 
 // Returning structures from functions
+struct Vector2D{
+	double x{};
+	double y{};
+};
+
+Vector2D addVectors(Vector2D v1, Vector2D v2){
+	return {v1.x + v2.x, v1.y + v2.y};
+}
+
+int structuresFromFunctions(){
+	Vector2D vec1{1.5, 2.5};
+	Vector2D vec2{3.5, 4.5};
+	Vector2D sum = addVectors(vec1, vec2);
+	std::cout << "Sum of vectors x = " << sum.x << "\nSum of vectors y = " << sum.y << std::endl;
+	
+	return 0;
+}

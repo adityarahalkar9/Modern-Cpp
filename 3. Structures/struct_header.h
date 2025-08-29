@@ -5,3 +5,4 @@ int runBasicStruct();
 int accessStruct();
 int passingByValue();
 int passingByReference();
+int structuresFromFunctions();
