@@ -1,5 +1,8 @@
 import std;
+#include "struct_header.h"
 
 int main(){
-	std::cout << "Hello structs" << std::endl;
+	// runBasicStruct();
+	// accessStruct();
+	// passingByValue();
 }

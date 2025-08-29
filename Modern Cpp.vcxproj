@@ -153,11 +153,13 @@
     <ClCompile Include="2. Memory\06. Vectors.cpp" />
     <ClCompile Include="2. Memory\07. Vector_matrix.cpp" />
     <ClCompile Include="2. Memory\main.cpp" />
+    <ClCompile Include="3. Structures\01. Basic_structs.cpp" />
     <ClCompile Include="3. Structures\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h" />
     <ClInclude Include="2. Memory\memory_header.h" />
+    <ClInclude Include="3. Structures\struct_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

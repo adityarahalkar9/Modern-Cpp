@@ -66,12 +66,18 @@
     <ClCompile Include="3. Structures\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3. Structures\01. Basic_structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="2. Memory\memory_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3. Structures\struct_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
