@@ -12,5 +12,7 @@ int main(){
 	// nestedStructure();
 	// pointerStructures();
 	// structClass();
-	structBitfield();
+	// structBitfield();
+
+	anonymousStruct();
 }

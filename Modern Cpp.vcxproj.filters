@@ -72,6 +72,9 @@
     <ClCompile Include="3. Structures\02. Intermediate_structs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3. Structures\03. Advanced_structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h">

@@ -12,3 +12,5 @@ int nestedStructure();
 int pointerStructures();
 int structClass();
 int structBitfield();
+
+int anonymousStruct();
