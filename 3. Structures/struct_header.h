@@ -13,4 +13,5 @@ int pointerStructures();
 int structClass();
 int structBitfield();
 
-int anonymousStruct();
+int anonymousStruct(); 
+int typedefStruct();

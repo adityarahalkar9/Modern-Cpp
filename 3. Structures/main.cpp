@@ -14,5 +14,6 @@ int main(){
 	// structClass();
 	// structBitfield();
 
-	anonymousStruct();
+	// anonymousStruct();
+	typedefStruct();
 }
