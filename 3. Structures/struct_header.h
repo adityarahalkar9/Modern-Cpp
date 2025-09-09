@@ -9,3 +9,4 @@ int structuresFromFunctions();
 
 int arrayStructure();
 int nestedStructure();
+int pointerStructures();
