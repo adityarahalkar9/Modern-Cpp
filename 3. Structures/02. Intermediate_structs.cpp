@@ -2,12 +2,6 @@ import std;
 #include "struct_header.h"
 
 
-/*
-	This code demonstrates how to create an array where each element is a student structure. We declare
-	an array of structs named students of size 3 and initialise each element using brace initialisation
-	with the name, age and GPA of student. We can iterate through the array and print the information
-	for each student.
-*/
 // Array Structures
 struct Student{
 	std::string name{};
@@ -28,6 +22,12 @@ int arrayStructure(){
 
 	return 0;
 }
+/*
+	This code demonstrates how to create an array where each element is a student structure. We declare
+	an array of structs named students of size 3 and initialise each element using brace initialisation
+	with the name, age and GPA of student. We can iterate through the array and print the information
+	for each student.
+*/
 
 
 
@@ -50,13 +50,7 @@ int nestedStructure(){
 }
 
 
-/*
-	This example shows how to work with pointers to structures.
-	Book* bookptr = &book1; declares a pointer bookptr that stores the memory address of the book1 
-	structure. To access the members of the structure through the pointer, we use the arrow operator(->).
-	The bookptr->title is equal to (*bookptr).title, where (*bookptr) dereferences the pointer to get 
-	the Book structure itself.
-*/
+
 // Pointers to structures
 struct Book{
 	std::string title{};
@@ -75,6 +69,41 @@ int pointerStructures(){
 	// Dereference the pointer using dot operator
 	std::cout << "Book Title(Dereferenced): " << (*bookptr).title << std::endl;
 	std::cout << "Book Author(Dereferenced): " << (*bookptr).author << std::endl;
+
+	return 0;
+}
+/*
+	This example shows how to work with pointers to structures.
+	Book* bookptr = &book1; declares a pointer bookptr that stores the memory address of the book1
+	structure. To access the members of the structure through the pointer, we use the arrow operator(->).
+	The bookptr->title is equal to (*bookptr).title, where (*bookptr) dereferences the pointer to get
+	the Book structure itself.
+*/
+
+
+
+// Structures and Classes
+// All members in struct are public by default
+struct DataStruct{		
+	int value{};
+	void printValue(){
+		std::cout << "Value in struct: " << value << std::endl;
+	}
+};
+// All members in classes are private by default
+class DataClass{
+public:
+	int value{};
+	void printValue(){
+		std::cout << "Value in class: " << value << std::endl;
+	}
+};
+int structClass(){
+	DataStruct ds{100};
+	ds.printValue();	// Accessible directly
+
+	DataClass dc{200};
+	dc.printValue();	// Accessible as it is in public section
 
 	return 0;
 }
