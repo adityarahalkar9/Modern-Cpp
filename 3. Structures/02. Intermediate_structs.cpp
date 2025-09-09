@@ -25,9 +25,26 @@ int arrayStructure(){
 		std::cout << "Name: " << students[i].name << ", Age: " << students[i].age << ", GPA: "
 				  << students[i].gpa << std::endl;
 	}
+
 	return 0;
 }
 
 
 
 // Nested Structures
+struct Date{
+	int year{};
+	int month{};
+	int date{};
+};
+struct Employee{
+	std::string name{};
+	Date birthDate{};	// Nested structure
+};
+int nestedStructure(){
+	Employee emp1{"David", {1995,10,25}};
+	std::cout << "Employee: " << emp1.name << " born on " << emp1.birthDate.date << "-"
+			  << emp1.birthDate.month << "-" << emp1.birthDate.year << std::endl;
+
+	return 0;
+}

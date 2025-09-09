@@ -7,5 +7,6 @@ int main(){
 	// passingByValue();
 	// passingByReference();
 	// structuresFromFunctions();
-	arrayStructure();
+	// arrayStructure();
+	nestedStructure();
 }

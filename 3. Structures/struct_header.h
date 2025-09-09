@@ -8,3 +8,4 @@ int passingByReference();
 int structuresFromFunctions();
 
 int arrayStructure();
+int nestedStructure();
