@@ -2,6 +2,12 @@ import std;
 #include "struct_header.h"
 
 
+/*
+	This code demonstrates how to create an array where each element is a student structure. We declare
+	an array of structs named students of size 3 and initialise each element using brace initialisation
+	with the name, age and GPA of student. We can iterate through the array and print the information
+	for each student.
+*/
 // Array Structures
 struct Student{
 	std::string name{};
@@ -21,12 +27,6 @@ int arrayStructure(){
 	}
 	return 0;
 }
-/*
-	This code demonstrates how to create an array where each element is a student structure. We declare
-	an array of structs named students of size 3 and initialise each element using brace initialisation
-	with the name, age and GPA of student. We can iterate through the array and print the information 
-	for each student.
-*/
 
 
 
