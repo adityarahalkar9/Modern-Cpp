@@ -153,6 +153,7 @@
     <ClCompile Include="2. Memory\06. Vectors.cpp" />
     <ClCompile Include="2. Memory\07. Vector_matrix.cpp" />
     <ClCompile Include="2. Memory\main.cpp" />
+    <ClCompile Include="3. Structures\02. Intermediate_structs.cpp" />
     <ClCompile Include="3. Structures\01. Basic_structs.cpp" />
     <ClCompile Include="3. Structures\main.cpp" />
   </ItemGroup>
