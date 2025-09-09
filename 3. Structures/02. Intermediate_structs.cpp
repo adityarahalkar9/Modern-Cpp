@@ -107,3 +107,36 @@ int structClass(){
 
 	return 0;
 }
+/*
+	This highlights a key difference in default access specifiers between structs and classes. In struct, members
+	are public by default, meaning they can be accessed from anywhere. In class, members are private by default 
+	so you need to explicitly declare them as public to access from outside the class.
+*/
+
+
+
+// Bitfields in structures
+struct StatusFlags{
+	unsigned int error : 1{};		// 1 bit for error flag initialised to zero
+	unsigned int warning : 1{};		// 1 bit for warning flag
+	unsigned int enabled : 1{};		// 1 bit for enabled flag
+	unsigned int reserved : 5{};	// 5 reserved bits
+};
+int structBitfield(){
+	StatusFlags flags{};
+	flags.error = 1;
+	flags.warning = 0;
+	flags.enabled = 1;
+	std::cout << "Error: " << flags.error << std::endl;
+	std::cout << "Warning: " << flags.warning << std::endl;
+	std::cout << "Enabled: " << flags.enabled << std::endl;
+	std::cout << "Size of SatusFlags: " << sizeof(StatusFlags) << " bytes" << std::endl;
+
+	return 0;
+}
+/*
+	Bitfields allow you to control the number of bits allocated to a member of a structure. This is useful
+	for saving memory when you know that a variable will only hold a small range of values. Here error,
+	warning and enabled are each allocated only 1 bit, reserved is allocated 5 bits. The total size of StatusFlags
+	structure might be smaller than if these were regular int or even bool variables.
+*/

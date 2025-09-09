@@ -11,5 +11,6 @@ int main(){
 	// arrayStructure();
 	// nestedStructure();
 	// pointerStructures();
-	structClass();
+	// structClass();
+	structBitfield();
 }

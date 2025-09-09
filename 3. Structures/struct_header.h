@@ -11,3 +11,4 @@ int arrayStructure();
 int nestedStructure();
 int pointerStructures();
 int structClass();
+int structBitfield();
