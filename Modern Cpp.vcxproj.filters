@@ -75,6 +75,12 @@
     <ClCompile Include="3. Structures\03. Advanced_structs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4. Classes\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Classes\01. Basic_classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h">
@@ -84,6 +90,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="3. Structures\struct_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="4. Classes\class_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
