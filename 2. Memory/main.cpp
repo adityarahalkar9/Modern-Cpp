@@ -4,6 +4,7 @@ import std;
 int main(){
 	// pointer();
 	// pointerManipulation();
+	pointers();
 
 	// references();
 	// referenceManipulation();
