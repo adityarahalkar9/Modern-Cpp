@@ -4,10 +4,9 @@ import std;
 int main(){
 	// pointer();
 	// pointerManipulation();
-	pointers();
+	// pointers();
 
-	// references();
-	// referenceManipulation();
+	references();
 
 	// arrays();
 	// twoDimensionalArrays();
@@ -19,4 +18,6 @@ int main(){
 	// vector();
 
 	// vectorMatrix();
+
+	return 0;
 }
