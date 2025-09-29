@@ -2,11 +2,9 @@ import std;
 #include "memory_header.h"
 
 int main(){
-	// pointer();
-	// pointerManipulation();
-	// pointers();
+	pointers();
 
-	references();
+	// references();
 
 	// arrays();
 	// twoDimensionalArrays();

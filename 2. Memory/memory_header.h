@@ -1,8 +1,6 @@
 #pragma once
 import std;
 
-int pointer();
-int pointerManipulation();
 int pointers();
 int references();
 int referenceManipulation();
