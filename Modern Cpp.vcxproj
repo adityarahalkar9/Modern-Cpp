@@ -157,14 +157,11 @@
     <ClCompile Include="3. Structures\01. Basic_structs.cpp" />
     <ClCompile Include="3. Structures\03. Advanced_structs.cpp" />
     <ClCompile Include="3. Structures\main.cpp" />
-    <ClCompile Include="4. Classes\01. Basic_classes.cpp" />
-    <ClCompile Include="4. Classes\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h" />
     <ClInclude Include="2. Memory\memory_header.h" />
     <ClInclude Include="3. Structures\struct_header.h" />
-    <ClInclude Include="4. Classes\class_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
