@@ -113,6 +113,8 @@
       <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <TranslateIncludes>true</TranslateIncludes>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +132,8 @@
       <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
       <LanguageStandard>stdcpp23</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <TranslateIncludes>true</TranslateIncludes>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -144,7 +148,10 @@
     <ClCompile Include="1. Basics\05. Condtions.cpp" />
     <ClCompile Include="1. Basics\06. Control_flow.cpp" />
     <ClCompile Include="1. Basics\07. size_t_sizeof.cpp" />
-    <ClCompile Include="1. Basics\main.cpp" />
+    <ClCompile Include="1. Basics\main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="2. Memory\01. Pointers.cpp" />
     <ClCompile Include="2. Memory\02. References.cpp" />
     <ClCompile Include="2. Memory\03. Arrays.cpp" />
@@ -152,11 +159,18 @@
     <ClCompile Include="2. Memory\04. Stl_array.cpp" />
     <ClCompile Include="2. Memory\06. Vectors.cpp" />
     <ClCompile Include="2. Memory\07. Vector_matrix.cpp" />
-    <ClCompile Include="2. Memory\main.cpp" />
+    <ClCompile Include="2. Memory\main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="3. Structures\02. Intermediate_structs.cpp" />
     <ClCompile Include="3. Structures\01. Basic_structs.cpp" />
     <ClCompile Include="3. Structures\03. Advanced_structs.cpp" />
-    <ClCompile Include="3. Structures\main.cpp" />
+    <ClCompile Include="3. Structures\main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4. Classes\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1. Basics\basics_header.h" />
