@@ -1,7 +1,10 @@
 import std;
-import Beginnerclass;
+// import BasicClass;
+// import Constructor;
+import Destructor;
 
 int main(){
-	beginnerclass();
-	std::cout << "Hello world";
+	// basicClass();
+	// constructor();
+	// destructor();
 }

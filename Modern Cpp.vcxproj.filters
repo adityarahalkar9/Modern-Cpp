@@ -78,7 +78,13 @@
     <ClCompile Include="4. Classes\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="4. Classes\class.ixx">
+    <ClCompile Include="4. Classes\01.Basic_class.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Classes\02.Constructor.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4. Classes\03.Destructor.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

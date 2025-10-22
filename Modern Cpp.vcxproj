@@ -170,7 +170,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="4. Classes\class.ixx" />
+    <ClCompile Include="4. Classes\01.Basic_class.ixx" />
+    <ClCompile Include="4. Classes\02.Constructor.ixx" />
+    <ClCompile Include="4. Classes\03.Destructor.ixx" />
     <ClCompile Include="4. Classes\main.cpp" />
   </ItemGroup>
   <ItemGroup>
