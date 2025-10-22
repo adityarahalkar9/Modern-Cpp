@@ -7,4 +7,6 @@ int main(){
 	// basicClass();
 	// constructor();
 	// destructor();
+
+	return 0;
 }
